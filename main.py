@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 
-threshold = 0.01
+threshold = 0.60
 
 selfie = cv2.imread("data/selfie.jpg", cv2.IMREAD_UNCHANGED)
 kevin = cv2.imread("data/kevin.jpg", cv2.IMREAD_UNCHANGED)
